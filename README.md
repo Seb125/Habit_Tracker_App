@@ -9,8 +9,11 @@ Python >= 3.7
 Install all of the required Python libraries.
 
 pip install argparse
+
 pip install pickle-mixin
+
 pip install datetime
+
 pip install prettytable
 
 ## Running the Habit Tracker
