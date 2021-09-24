@@ -32,7 +32,7 @@ To use the habit tracker you need to create a profile or load an existing one. T
 
 python main.py profilename.pkl
  
-The habit tracker then offers the following functions, which can also be accessed by "python main.py -h":
+The habit tracker then offers the following functions:
 
  1) Create and delete habits -> enter 'create'
     Here you can create a new habit, by specifying the name, the quality 
@@ -50,4 +50,6 @@ The habit tracker then offers the following functions, which can also be accesse
     
     Note: Weekly habits are based on the ISO week date system. 
 
+Help on how to use the Habit Tracker can also be accessed by the follwoing:
 
+python main.py -h
