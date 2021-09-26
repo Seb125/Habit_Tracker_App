@@ -32,6 +32,7 @@ To use the habit tracker you need to create a profile or load an existing one. T
 
 python main.py profilename.pkl
  
+ 
 The habit tracker then offers the following functions:
 
  1) Create and delete habits -> enter 'create'
@@ -53,3 +54,22 @@ The habit tracker then offers the following functions:
 Help on how to use the Habit Tracker can also be accessed by the follwoing:
 
 python main.py -h
+
+# Testing the Habit Tracker
+
++------------+
+|   Dates    |
++------------+
+| 2021-01-01 |
+| 2021-01-02 |
+| 2021-01-03 |
+| 2021-01-04 |
+| 2021-02-01 |
+| 2021-01-03 |
+| 2021-02-05 |
+| 2021-07-01 |
+| 2021-08-25 |
+| 2021-08-26 |
+| 2021-08-27 |
+| 2021-08-28 |
++------------+
