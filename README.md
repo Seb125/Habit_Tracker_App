@@ -57,6 +57,18 @@ python main.py -h
 
 # Testing the Habit Tracker
 
+To test the habit tracker the file test_habit can be used. For this purpose, different data sets are available, each with different habits and test data.
+
+Test data set 1:
+
+Habits:  
+Daily habit: workout  
+Weekly habit: gaming  
+Monthly habit: hiking  
+Bad habit: 
+
+Sample data for habit workout:  
+
 +------------+  
 |   Dates    |  
 +------------+  
@@ -73,3 +85,10 @@ python main.py -h
 | 2021-08-27 |  
 | 2021-08-28 |  
 +------------+  
+
+Maximum streak length: 4 days (2021-01-01, 2021-01-02, 2021-01-03, 2021-01-04 or 2021-08-25, 2021-08-26, 2021-08-27, 2021-08-28)  
+Current streak length: 0 days
+
+
+
+
