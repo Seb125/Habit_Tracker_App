@@ -86,9 +86,47 @@ Sample data for habit workout:
 | 2021-08-28 |  
 +------------+  
 
+Number of no breaks last month: 4
 Maximum streak length: 4 days (2021-01-01, 2021-01-02, 2021-01-03, 2021-01-04 or 2021-08-25, 2021-08-26, 2021-08-27, 2021-08-28)  
 Current streak length: 0 days
 
+
+Sample date for habit gaming:
+
++------------+  
+|   Dates    |  
++------------+  
+| 2021-01-01 |  
+| 2021-01-08 |  
+| 2021-01-16 |  
+| 2021-02-04 |  
+| 2021-02-09 |  
+| 2021-02-23 |  
+| 2021-08-29 |  
++------------+  
+ 
+Number of no breaks last month: 1
+Maximum streak length: 3 weeks (2021-01-01, 2021-01-08, 2021-01-16)  
+Current streak length: 0 weeks
+
+
+Sample data for habit kiking:
+
++------------+  
+|   Dates    |  
++------------+  
+| 2020-12-01 |  
+| 2021-01-08 |  
+| 2021-02-16 |  
+| 2021-03-04 |  
+| 2021-05-09 |  
+| 2021-07-23 |  
+| 2021-08-31 |  
++------------+  
+
+Number of no breaks last month: 1
+Maximum streak length: 4 month (2020-12-01, 2021-01-08, 2021-02-16, 2021-03-04)  
+Current streak length: 1 month (2021-08-31)
 
 
 
