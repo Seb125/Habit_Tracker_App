@@ -128,5 +128,48 @@ Number of no breaks last month: 1
 Maximum streak length: 4 months (2020-12-01, 2021-01-08, 2021-02-16, 2021-03-04)    
 Current streak length: 2 months (2021-07-23, 2021-08-31)  
 
+Sample data for habit smoking:
 
++------------+  
+|   Dates    |  
++------------+  
+| 2020-08-01 |  
+| 2020-09-03 |  
+| 2020-09-04 |  
+| 2020-09-05 |  
+| 2020-09-06 |  
+| 2021-09-07 |  
+| 2021-09-08 |  
+| 2021-09-09 |  
+| 2021-09-10 |  
+| 2021-09-28 |  
++------------+  
 
+Number of breaks last month: 0  
+Maximum streak length: 366 days (from 2020-09-06 to 2021-09-07)    
+Current streak length: 0 days  
+
+Sample data for habit homework:
+
++------------+  
+|   Dates    |  
++------------+  
+| 2021-08-25 |  
+| 2021-08-26 |  
+| 2021-08-27 |  
+| 2021-08-28 |  
+| 2020-09-03 |  
+| 2020-09-04 |  
+| 2020-09-05 |  
+| 2020-09-06 |  
+| 2021-09-07 |  
+| 2021-09-08 |  
+| 2021-09-09 |  
+| 2021-09-10 |  
+| 2021-09-11 |  
+| 2021-09-28 |  
++------------+  
+  
+Number of no breaks last month: 3  
+Maximum streak length: 5 days (2021-09-07, 2021-09-08, 2021-09-09, 2021-09-10, 2021-09-11)    
+Current streak length: 1 day (2021-09-28)
