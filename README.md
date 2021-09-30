@@ -173,3 +173,7 @@ Sample data for habit homework:
 Number of no breaks last month: 3  
 Maximum streak length: 5 days (2021-09-07, 2021-09-08, 2021-09-09, 2021-09-10, 2021-09-11)    
 Current streak length: 1 day (2021-09-28)
+
+# Creating new test data
+
+To test the habit tracker with new data just create a csv file as the one provided in the csv folder. Then run test_csv.py, where you create a new habit (just like in the main program) which is then saved with the new data as "Test_profile.pkl". This file can then be used with unit_test.py, where you just replace the name of the profile you want to test. All values that are to be calculated from the new data must be replaced before running the program.  
