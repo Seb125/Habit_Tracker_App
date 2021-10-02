@@ -30,7 +30,7 @@ $ python main.py
 
 This will raise an error: the following arguments are required: Profilename.pkl
 
-To use the habit tracker you need to create a profile or load an existing one. Therefore type the following:
+To use the habit tracker you need to create a profile or load an existing one. Therefore type the following, where profilname can be replaced by any new or existing profile-name:
 
 $ python main.py profilename.pkl
  
