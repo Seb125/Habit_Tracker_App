@@ -51,7 +51,7 @@ Help on how to use the Habit Tracker can also be accessed by the follwoing:
 
 python main.py -h
 
-# Testing the Habit Tracker
+## Testing the Habit Tracker
 
 To test the habit tracker the file unit_test.py can be used. In the file a sample data set is defined, which is described in more detail below. The sample data can easily be replaced by new data. This is achieved by changing the parameters of the datetime objects in the corresponding list. E.g.: date(2021, 1, 1) -> date(2021, 2, 1), this way the first of january 2021 is changed to the first of february 2021. 
 
