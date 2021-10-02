@@ -8,25 +8,31 @@ Python >= 3.7
 
 Install all of the required Python libraries.
 
-pip install argparse
+$ pip install argparse
 
-pip install pickle-mixin
+$ pip install pickle-mixin
 
-pip install datetime
+$ pip install datetime
 
-pip install prettytable
+$ pip install prettytable
 
 ## Running the Habit Tracker
 
+To get a copy of this repository use:
+
+$ git clone https://github.com/Seb125/Habit-tracker
+
+This will create a folder called Habit-tracker in the current directory with all the files of this repository. 
+
 Run the main.py file to start the Habit Tracker:
 
-python main.py
+$ python main.py
 
 This will raise an error: the following arguments are required: Profilename.pkl
 
 To use the habit tracker you need to create a profile or load an existing one. Therefore type the following:
 
-python main.py profilename.pkl
+$ python main.py profilename.pkl
  
  
 The habit tracker then offers the following functions:
@@ -49,7 +55,7 @@ The habit tracker then offers the following functions:
 
 Help on how to use the Habit Tracker can also be accessed by the follwoing:
 
-python main.py -h
+$ python main.py -h
 
 ## Testing the Habit Tracker
 
