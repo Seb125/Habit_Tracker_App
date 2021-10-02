@@ -18,10 +18,6 @@ pip install prettytable
 
 ## Running the Habit Tracker
 
-In the root directory, run the following command (on Mac or Linux) to make the main.py file executable
-
-chmod a+x ./main.py
-
 Run the main.py file to start the Habit Tracker:
 
 python main.py
@@ -57,9 +53,9 @@ python main.py -h
 
 # Testing the Habit Tracker
 
-To test the habit tracker the file test_habit can be used. For this purpose, different data sets are available, each with different habits and test data.
+To test the habit tracker the file unit_test.py can be used. In the file a sample data set is defined, which is described in more detail below. The sample data can easily be replaced by new data. This is achieved by changing the parameters of the datetime objects in the corresponding list. E.g.: date(2021, 1, 1) -> date(2021, 2, 1), this way the first of january 2021 is changed to the first of february 2021. 
 
-Test data set 1:
+Test data set:
 
 Habits:  
 Daily habit: workout  
@@ -77,7 +73,7 @@ Sample data for habit workout:
 | 2021-01-03 |  
 | 2021-01-04 |  
 | 2021-02-01 |  
-| 2021-01-03 |  
+| 2021-02-03 |  
 | 2021-02-05 |  
 | 2021-07-01 |  
 | 2021-08-25 |  
@@ -173,7 +169,3 @@ Sample data for habit homework:
 Number of no breaks last month: 3  
 Maximum streak length: 5 days (2021-09-07, 2021-09-08, 2021-09-09, 2021-09-10, 2021-09-11)    
 Current streak length: 1 day (2021-09-28)
-
-## Creating new test data
-
-To test the habit tracker with new data just create a csv file as the one provided in the csv folder. Then run test_csv.py, where you create a new habit (just like in the main program) which is then saved with the new data as "Test_profile.pkl". This file can then be used with unit_test.py, where you just replace the name of the profile you want to test. All values that are to be calculated from the new data must be replaced before running unit_test.py. 
