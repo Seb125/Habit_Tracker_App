@@ -1,6 +1,6 @@
 # Habit-tracker
 
-This is a habit tracker. This habit tracker wil help you to train new habits. It provides ways to create and delete habits, you can manage your habits and also analyze them. 
+This is a habit tracker. This habit tracker will help you to train new habits. It provides ways to create and delete habits, you can manage your habits and also analyze them. 
 
 ## Requirements
 
