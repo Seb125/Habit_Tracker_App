@@ -160,10 +160,10 @@ Sample data for habit homework:
 | 2021-08-26 |  
 | 2021-08-27 |  
 | 2021-08-28 |  
-| 2020-09-03 |  
-| 2020-09-04 |  
-| 2020-09-05 |  
-| 2020-09-06 |  
+| 2021-09-03 |  
+| 2021-09-04 |  
+| 2021-09-05 |  
+| 2021-09-06 |  
 | 2021-09-07 |  
 | 2021-09-08 |  
 | 2021-09-09 |  
@@ -175,3 +175,5 @@ Sample data for habit homework:
 Number of no breaks last month: 3  
 Maximum streak length: 5 days (2021-09-07, 2021-09-08, 2021-09-09, 2021-09-10, 2021-09-11)    
 Current streak length: 1 day (2021-09-28)
+
+Note: Performance parameters may change and may not be up to date. Therefore they have to be updated in the unit_test.py file.
