@@ -64,10 +64,10 @@ To test the habit tracker the file unit_test.py can be used. In the file a sampl
 Test data set:
 
 Habits:  
-Daily habit: workout  
+Daily habit: workout, homework  
 Weekly habit: gaming  
 Monthly habit: hiking  
-Bad habit: 
+Bad habit: smoking
 
 Sample data for habit workout:  
 
