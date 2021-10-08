@@ -30,11 +30,13 @@ class Habit_profile:
                 elif x[2] == "monthly":
                     new_habit = Monthly_habit(x[0], x[1], x[2], [], [])
                     self.good_monthly_habits.append(new_habit)
+                else:
+                    print("Please check the instructions for creating a new habit!")
             elif x[1] == "bad":
                 new_habit = Bad_habit(x[0], x[1], [], [])
                 self.bad_habits.append(new_habit)
             self.all_habits.append(new_habit)
-        except IndexError:
+        except (IndexError, UnboundLocalError):
             print("Please check the instructions for creating a new habit!")
 
     def delete_habit(self):

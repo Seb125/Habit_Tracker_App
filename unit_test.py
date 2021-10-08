@@ -32,7 +32,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(self.workout.number_no_breaks_last_month(), 0)
         self.assertEqual(self.gaming.number_no_breaks_last_month(), 0)
         self.assertEqual(self.hiking.number_no_breaks_last_month(), 0)
-        self.assertEqual(self.smoking.number_no_breaks_last_month(), 5)
+        self.assertEqual(self.smoking.number_no_breaks_last_month(), 5) # For a bad habit these are actually the number of breaks
         self.assertEqual(self.homework.number_no_breaks_last_month(), 10)
 
     def test_streaks(self):
