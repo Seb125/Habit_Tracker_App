@@ -1,6 +1,5 @@
 import argparse
 import pickle
-from datetime import date, timedelta
 import classes_Kopie as cl
 from prettytable import PrettyTable
 
@@ -64,8 +63,11 @@ if __name__ == '__main__':
         profile = cl.Habit_profile(profile_name)
 
     while True:
-        z = PrettyTable()
-        z.add_column("Your current habits:", [habit.name for habit in profile.all_habits])
+        z = PrettyTable(["", "Your current habits"])
+        z.add_row(["Daily habits", str([habit.name for habit in profile.good_daily_habits])])
+        z.add_row(["Weekly habits", str([habit.name for habit in profile.good_weekly_habits])])
+        z.add_row(["Monthly habits", str([habit.name for habit in profile.good_monthly_habits])])
+        z.add_row(["Bad habits", str([habit.name for habit in profile.bad_habits])])
         print(z)
         print("You can either analyze, manage, create or delete habits.\nPlease enter the name of one of these editing modes.\nIf you want to exit the habit tracker please type 'exit'.")
         action = input()

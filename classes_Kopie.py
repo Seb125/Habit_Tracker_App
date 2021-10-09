@@ -36,7 +36,7 @@ class Habit_profile:
                 new_habit = Bad_habit(x[0], x[1], [], [])
                 self.bad_habits.append(new_habit)
             self.all_habits.append(new_habit)
-        except (IndexError, UnboundLocalError):
+        except:
             print("Please check the instructions for creating a new habit!")
 
     def delete_habit(self):
@@ -76,7 +76,8 @@ class Habit_profile:
         x.add_column("Periodicity", [habit.period if habit.quality == "good" else "X" for habit in self.all_habits])
         x.add_column("Current_streak_length",[habit.streaks()[0] for habit in self.all_habits])
         x.add_column("Maximum_streak_length", [habit.streaks()[1] for habit in self.all_habits])
-        x.add_column("Sucess_rate_last_month", [habit.number_no_breaks_last_month() if habit.quality == "good"
+        x.add_column("Sucess_rate_last_month", ["X" if habit.creation_date.month == date.today().month
+                                                         else habit.number_no_breaks_last_month() if habit.quality == "good"
                                                          else (number_days_last_month - habit.number_no_breaks_last_month()) for habit in self.all_habits])
 
         # Here a list of the habits which have the longest streak length is created
@@ -133,19 +134,19 @@ class Habit:
         today = date.today()
         if not self.dates:
             self.dates.append(today)
-            self.time.append(datetime.now())
+            self.time.append(datetime.now().time())
         elif self.quality == "good":
             if 1 > self.delta_periods(): # The current date is only saved in the profile, if the user is not in the current period
                 print("You already finished this habit for the current period")
             else:
                 self.dates.append(today)
-                self.time.append(datetime.now())
+                self.time.append(datetime.now().time())
         else:                            # The same procedure for bad habits
             if self.dates[-1] == today:
                 print("You have already indicated that you have followed this habit today")
             else:
                 self.dates.append(today)
-                self.time.append(datetime.now())
+                self.time.append(datetime.now().time())
 
 class Good_habit(Habit):
     '''This class is the superclass of all good habits (daiy, weekly, monthly)'''
