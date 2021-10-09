@@ -37,20 +37,20 @@ $ python main.py profilename.pkl
  
 The habit tracker then offers the following functions:
 
- 1) Create habits -> enter create
+ 1) Create habits -> enter create  
     Here you can create a new habit, by specifying the name, the quality 
     (i.e. if it is a good or a bad habit -> enter good for a good habit) 
     and the period (daily or weekly)
     of your habit.
     
- 2) Delete habits -> enter delete
+ 2) Delete habits -> enter delete  
     You can enter the name of an existing habit, to delete it from your habit list.
 
- 3) Analyze habits -> enter analyze
+ 3) Analyze habits -> enter analyze  
     Here you can analyze your performance on your habits. You can either analyze a single habit
     or get a summary over all habits. The keyword summary can be used to create an overview of all habits and a specific name to analyze a particular habit.
 
- 4) Manage your habits -> enter manage
+ 4) Manage your habits -> enter manage  
     Here you can check off your habits. If you finished a good habit or if you did not follow a
     bad habit, you can save this here by providing the name of the corresponding habit.
     
