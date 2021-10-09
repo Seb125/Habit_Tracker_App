@@ -39,9 +39,9 @@ The habit tracker then offers the following functions:
 
  1) Create habits -> enter create  
     Here you can create a new habit, by specifying the name, the quality 
-    (i.e. if it is a good or a bad habit -> enter good for a good habit) 
-    and the period (daily or weekly)
-    of your habit.
+    (good vs. bad) 
+    and the period (daily, weekly or monthly)
+    of your habit.E.g.: workout good daily
     
  2) Delete habits -> enter delete  
     You can enter the name of an existing habit, to delete it from your habit list.
