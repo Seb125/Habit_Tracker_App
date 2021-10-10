@@ -44,8 +44,8 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(self.gaming.streaks()[1], 3)
         self.assertEqual(self.hiking.streaks()[0], 0)
         self.assertEqual(self.hiking.streaks()[1], 4)
-        self.assertEqual(self.smoking.streaks()[0], 3)
-        self.assertEqual(self.smoking.streaks()[1], 366)
+        self.assertEqual(self.smoking.streaks()[0], 11)
+        self.assertEqual(self.smoking.streaks()[1], 365)
         self.assertEqual(self.homework.streaks()[0], 0)
         self.assertEqual(self.homework.streaks()[1], 9)
 

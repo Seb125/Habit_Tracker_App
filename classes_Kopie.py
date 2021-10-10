@@ -137,13 +137,13 @@ class Habit:
             self.time.append(datetime.now().time())
         elif self.quality == "good":
             if 1 > self.delta_periods(): # The current date is only saved in the profile, if the user is not in the current period
-                print("You already finished this habit for the current period")
+                print("You already finished this habit for the current period!")
             else:
                 self.dates.append(today)
                 self.time.append(datetime.now().time())
         else:                            # The same procedure for bad habits
             if self.dates[-1] == today:
-                print("You have already indicated that you have followed this habit today")
+                print("You have already indicated that you have followed this habit today!")
             else:
                 self.dates.append(today)
                 self.time.append(datetime.now().time())
@@ -213,9 +213,9 @@ class Bad_habit(Habit):
         else:
             for i in range(len(self.dates) - 1):
                 if (self.dates[i + 1] - self.dates[i]).days != 1: # For two dates on consecutive days there is no streak
-                    streaks.append((self.dates[i + 1] - self.dates[i]).days)
+                    streaks.append((self.dates[i + 1] - self.dates[i]).days - 1)
             max_streak = max(streaks)
-            current_streak = (date.today() - self.dates[-1]).days
+            current_streak = (date.today() - self.dates[-1]).days - 1
             if current_streak > max_streak:
                 max_streak = current_streak
             return current_streak, max_streak

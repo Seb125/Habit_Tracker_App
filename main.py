@@ -18,7 +18,7 @@ if __name__ == '__main__':
                                      usage = '''
 ------------------------------------------------------------------------------------------------------------
 
-    This is a habit tracker. This habit tracker wil help you to train new habits. It provides ways to create
+    This is a habit tracker. This habit tracker will help you to train new habits. It provides ways to create
     and delete habits, you can manage your habits and also analyze them. 
     For further instructions and help use '-h'.
                                          
@@ -33,21 +33,21 @@ if __name__ == '__main__':
  
  The habit tracker then offers the following functions:
 
- 1) Create and delete habits -> enter 'create'
-    Here you can create a new habit, by specifying the name, the quality 
-    (i.e. if it is a good or a bad habit -> enter good for a good habit) 
-    and the period (daily or weekly)
-    of your habit. You can also enter the name of an existing habit, to delete it from your habit list.
-
- 2) Analyze habits -> enter ‘analyze‘
-    Here you can analyze your performance on your habits. You can either analyze a single habit
-    or get a summary over all habits
-
- 3) Manage your habits -> enter ‘manage‘
-    Here you can check off your habits. If you finished a good habit or if you did not follow a
-    bad habit, you can save this here.
+ 1) Create habits -> enter create  
+    Here you can create a new habit, by specifying the name, the quality (good vs. bad) 
+    and the period (daily, weekly or monthly) of your habit.E.g.: workout good daily
     
-    Note: Weekly habits are based on the ISO week date system. 
+ 2) Delete habits -> enter delete  
+    You can enter the name of an existing habit, to delete it from your habit list.
+
+ 3) Analyze habits -> enter analyze  
+    Here you can analyze your performance on your habits. You can either analyze a single habit
+    or get a summary over all habits. The keyword summary can be used to create an overview of all 
+    habits and a specific name to analyze a particular habit.
+
+ 4) Manage your habits -> enter manage  
+    Here you can check off your habits. If you finished a good habit or if you did not follow a
+    bad habit, you can save this here by providing the name of the corresponding habit.
 
 -----------------------------------------------------------------------------------------------------------
  ''',
@@ -69,11 +69,11 @@ if __name__ == '__main__':
         z.add_row(["Monthly habits", str([habit.name for habit in profile.good_monthly_habits])])
         z.add_row(["Bad habits", str([habit.name for habit in profile.bad_habits])])
         print(z)
-        print("You can either analyze, manage, create or delete habits.\nPlease enter the name of one of these editing modes.\nIf you want to exit the habit tracker please type 'exit'.")
+        print("You can analyze, manage, create or delete habits.\nPlease enter the name of one of these editing modes.\nIf you want to exit the habit tracker please type 'exit'.")
         action = input()
         
         if action == "create":
-            print("Please enter the follwowing for a good habit: name quality periodicity\nPlease enter the following for a bad habit: name quality\n(Quality is either good or bad and periodicity can be either daily or weekly)")
+            print("Please enter the follwowing for a good habit: name quality periodicity\nPlease enter the following for a bad habit: name quality\n(Quality is either good or bad and periodicity can be daily, weekly or monthly)")
             profile.create_habit()
 
         elif action == "delete":
