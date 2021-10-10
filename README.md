@@ -89,8 +89,8 @@ Sample data for habit workout:
 | 2021-08-28 |  
 +------------+  
 
-Number of no breaks last month: 4
-Maximum streak length: 4 days (2021-01-01, 2021-01-02, 2021-01-03, 2021-01-04 or 2021-08-25, 2021-08-26, 2021-08-27, 2021-08-28)  
+Number of no breaks last month: 0  
+Maximum streak length: 4 days 
 Current streak length: 0 days
 
 
@@ -108,8 +108,8 @@ Sample date for habit gaming:
 | 2021-08-29 |  
 +------------+  
  
-Number of no breaks last month: 1  
-Maximum streak length: 3 weeks (2021-01-01, 2021-01-08, 2021-01-16)    
+Number of no breaks last month: 0    
+Maximum streak length: 3 weeks 
 Current streak length: 0 weeks  
 
 
@@ -127,9 +127,9 @@ Sample data for habit kiking:
 | 2021-08-31 |  
 +------------+  
 
-Number of no breaks last month: 1  
-Maximum streak length: 4 months (2020-12-01, 2021-01-08, 2021-02-16, 2021-03-04)    
-Current streak length: 2 months (2021-07-23, 2021-08-31)  
+Number of no breaks last month: 0    
+Maximum streak length: 4 months   
+Current streak length: 0 months 
 
 Sample data for habit smoking:
 
@@ -148,9 +148,9 @@ Sample data for habit smoking:
 | 2021-09-28 |  
 +------------+  
 
-Number of breaks last month: 0  
-Maximum streak length: 366 days (from 2020-09-06 to 2021-09-07)    
-Current streak length: 0 days  
+Number of breaks last month: 5    
+Maximum streak length: 365 days 
+Current streak length: 11 days  
 
 Sample data for habit homework:
 
@@ -173,8 +173,8 @@ Sample data for habit homework:
 | 2021-09-28 |  
 +------------+  
   
-Number of no breaks last month: 3  
-Maximum streak length: 5 days (2021-09-07, 2021-09-08, 2021-09-09, 2021-09-10, 2021-09-11)    
-Current streak length: 1 day (2021-09-28)
+Number of no breaks last month: 10    
+Maximum streak length: 9 days 
+Current streak length: 0 day 
 
 Note: Performance parameters may change and may not be up to date. Therefore they have to be updated in the unit_test.py file.
