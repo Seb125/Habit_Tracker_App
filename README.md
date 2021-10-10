@@ -90,7 +90,7 @@ Sample data for habit workout:
 +------------+  
 
 Number of no breaks last month: 0  
-Maximum streak length: 4 days 
+Maximum streak length: 4 days   
 Current streak length: 0 days
 
 
@@ -109,7 +109,7 @@ Sample date for habit gaming:
 +------------+  
  
 Number of no breaks last month: 0    
-Maximum streak length: 3 weeks 
+Maximum streak length: 3 weeks   
 Current streak length: 0 weeks  
 
 
@@ -128,7 +128,7 @@ Sample data for habit kiking:
 +------------+  
 
 Number of no breaks last month: 0    
-Maximum streak length: 4 months   
+Maximum streak length: 4 months     
 Current streak length: 0 months 
 
 Sample data for habit smoking:
@@ -149,7 +149,7 @@ Sample data for habit smoking:
 +------------+  
 
 Number of breaks last month: 5    
-Maximum streak length: 365 days 
+Maximum streak length: 365 days   
 Current streak length: 11 days  
 
 Sample data for habit homework:
@@ -174,7 +174,7 @@ Sample data for habit homework:
 +------------+  
   
 Number of no breaks last month: 10    
-Maximum streak length: 9 days 
+Maximum streak length: 9 days   
 Current streak length: 0 day 
 
 Note: Performance parameters may change and may not be up to date. Therefore they have to be updated in the unit_test.py file.
