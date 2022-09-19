@@ -1,7 +1,6 @@
 import unittest
 from classes_Kopie import *
 from datetime import date
-# hellooooo
 
 class TestCalc(unittest.TestCase):
 
